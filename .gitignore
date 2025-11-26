@@ -1,0 +1,23 @@
+# Never commit raw data
+data/
+*.csv
+*.parquet
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.mimic-nlp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Large output
+results/
+models/
